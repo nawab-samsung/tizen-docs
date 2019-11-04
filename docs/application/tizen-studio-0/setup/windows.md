@@ -62,15 +62,15 @@ Ensure that the following system prerequisites are met:
   </tr>
   <tr>
     <td>Open JDK</td>
-    <td width=520px><a href="https://download.java.net/java/GA/jdk10/10/binaries/openjdk-10_windows-x64_bin.tar.gz" class="clickable" target="_blank">https://download.java.net/java/GA/jdk10/10/binaries/openjdk-10_windows-x64_bin.tar.gz</a></td>
+    <td width=520px><a href="https://download.java.net/java/GA/jdk10/10/binaries/openjdk-10_windows-x64_bin.tar.gz" class="clickable" target="_blank">Download</a></td>
   </tr>
   <tr>
     <td>OpenJavaFX</td>
-    <td><a href=http://gluonhq.com/download/javafx-11-0-2-sdk-windows/ class="clickable" target="_blank">http://gluonhq.com/download/javafx-11-0-2-sdk-windows/</a></td>
+    <td><a href=http://gluonhq.com/download/javafx-11-0-2-sdk-windows/ class="clickable" target="_blank">Download</a></td>
   </tr>
   <tr>
     <td>Tizen Studio setup file</td>
-    <td><a href="https://developer.tizen.org/development/tizen-studio/download#" class="clickable" target="_blank">https://developer.tizen.org/development/tizen-studio/download#</a></td>
+    <td><a href="https://developer.tizen.org/development/tizen-studio/download#" class="clickable" target="_blank">Download</a></td>
   </tr>
 </table>
 
