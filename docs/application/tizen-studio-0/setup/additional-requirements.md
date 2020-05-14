@@ -1,16 +1,12 @@
 # Additional Requirements
 
-This page explains the summary of various requirements that are necessary to configure your development environment for optimal and seamless development experience. 
-
-Tizen studio tools such as Emulator, Web Inspector, and various other tools need to be configured specifically on your development hardware, such that the dependent development processes work efficiently. 
-
-The following sections provides a quick overview of the additional requirements for various tools to run seamlessly:
+This page explains you the summary of various requirements that are necessary to configure your development environment for optimal and seamless development experience. Tizen studio tools such as Emulator, Web Inspector, and various other tools need to be configured specifically on your development hardware, such that the dependent development processes work efficiently. 
 
 ## Tizen Studio Emulator 
 
-Tizen Studio emulator simulates Tizen based devices on your computer so that you can test your Tizen applications without having the requirement of each physical device. Tizen Studio emulator provides almost all of the capabilities of a real Tizen based device.
+Tizen Studio Emulator simulates Tizen based devices on your computer, so that you can test your Tizen applications without having the requirement of each physical device. Tizen Studio Emulator provides almost all of the capabilities of a real Tizen based device.
 
-To use Tizen Studio emulator, ensure that your development hardware meets the following configurations:
+To use Tizen Studio Emulator, ensure that your development hardware meets the following configurations:
 
 <table>
 <thead>
