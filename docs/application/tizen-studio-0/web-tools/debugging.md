@@ -18,7 +18,6 @@ The Tizen Studio provides the following set of tools to help you debug your Web 
 
   The JavaScript Analyzer tool makes it easy to find problems in JavaScript code. It supports 2 analyzer types: a static analyzer to check the coding rules and a dynamic analyzer to check stale objects.
 
-
 ## Related Information
-* Dependencies
+- Dependencies
   - Tizen Studio 1.0 and Higher

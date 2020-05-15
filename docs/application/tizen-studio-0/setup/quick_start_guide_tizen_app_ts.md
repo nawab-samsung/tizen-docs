@@ -3,7 +3,7 @@
 ## Introduction
 Wearable Web applications are apps that help you monitor health, show time, play games, and much more. These applications are developed using various Web-native languages, such as HTML5, Cascading Style Sheets (CSS), and JavaScript.
 
-This page explains how to develop a Wearable Web application in Tizen Studio using **Template**.
+This page explains how to develop a Wearable Web application in Tizen Studio using an existing **Template**.
 
 
 ## System Requirements

@@ -7,16 +7,13 @@ The following are some of the ways in which you can extend your Tizen Studio:
 
 ## In-App Purchase
 
-In-app purchase allows you to sell the digital content to customers inside your application. With In-app purchase service, 
-you can make your customers to make an in-app purchase in order to access special content or features in an app such as power-ups, restricted levels, virtual money, special characters, boosts, etc. In-app purchase is offered as a consumable, non-consumable, or subscription.
+In-app purchase allows you to sell the digital content to customers inside your application. With In-app purchase service, you can make your customers to make an in-app purchase in order to access special content or features in an app such as power-ups, restricted levels, virtual money, special characters, boosts, etc. In-app purchase is offered as a consumable, non-consumable, or subscription.
 
 You can implement in-app purchase in your application by using the Tizen application control mechanism. In-app purchase service provides the functionality to process payments for items offered in your application through the Tizen Store. In-app purchase uses the same payment service as is used for application purchases, so your customers experience a consistent and secured purchase flow. In-app purchase can be implemented in both Tizen native and Web applications.
 
 To use in-app purchase, you can use your Tizen Store Seller Office account to register items to the [Tizen Store Seller Office](http://seller.tizenstore.com/). 
 
-To get started, read the following guide:
-
-- [In-app Purchase Programming Guide](in-app-purchase.md)
+To get started, read the [In-app Purchase Programming Guide](in-app-purchase.md).
 
 
 ## InMobi Tizen Ad SDK 
@@ -25,9 +22,9 @@ The InMobi Tizen Ad SDK allows you to monetize your Tizen application with a wid
 
 You can use InMobi Tizen Ads in Tizen Web applications, native applications, and Unity games. 
 
--   Tizen Web application: Tizen Web applications use the Tizen Web Framework to interact with the Web subsystems. The application is built using Web languages, such as HTML5, CSS, and JavaScript.
--   Tizen native application: Tizen native application uses EFL (Enlightenment Foundation Libraries) for the application UI. The application is developed using C and it can access advanced device-specific features.
--   Unity game on Tizen: To use Tizen Ads in your Unity game, you need the Unity SDK version 5.2.2 or above for privilege addition support. The games are developed using C#.
+-   **Tizen Web application:** Tizen Web applications use the Tizen Web Framework to interact with the Web subsystems. The application is built using Web languages, such as HTML5, CSS, and JavaScript.
+-   **Tizen Native application:** Tizen native application uses EFL (Enlightenment Foundation Libraries) for the application UI. The application is developed using C and it can access advanced device-specific features.
+-   **Unity game on Tizen:** To use Tizen Ads in your Unity game, you need the Unity SDK version 5.2.2 or above for privilege addition support. The games are developed using C#.
 
 To get started with the InMobi Tizen Ad SDK, see the following guide:
 
@@ -44,6 +41,4 @@ VMAX provides support for Ads in Tizen Native, Unity and Web applications.
 - Unity SDK: Game developers can utilize this Ad SDK to monetize various in-game ad placements and they can make .
 - Webapp SDK: Web application developers can use this SDK for applications developed using web technologies such as (HTML, CSS & Javascript), you can monetize your web app with VMAX Tizen SDK. 
 
-To get started with the VMAX Ad SDK, read the following guide:
-
- - [VMAX Tizen SDK Integration Guide](vmax.md)
+To get started with the VMAX Ad SDK, read the [VMAX Tizen SDK Integration Guide](vmax.md).

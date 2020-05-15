@@ -1,9 +1,11 @@
 ## Troubleshooting 
 
-This page provides the information needed to troubleshoot Tizen Studio. Participate in the [Tizen User Community forum](https://developer.tizen.org/forums), and suggest ways to improve the documentation. This page describes methodologies, techniques, and procedures for troubleshooting problems that might arise in the day-to-day operations while using Tizen Studio.
+This page provides the information needed to troubleshoot Tizen Studio. Participate in the [Tizen User Community forum](https://developer.tizen.org/forums), and suggest ways to improve the documentation. 
+
+This page describes methodologies, techniques, and procedures to troubleshoot problems that might arise in the day-to-day operations while using Tizen Studio.
 
 ## Issue: HAXM fails to install
-**Description:** You encounter an HAXM installation failure.
+**Description:** You encounter HAXM installation failure.
 
 **Solution:** 
 - Ensure that **VT**, **Execute Disable Bit** option is enabled in BIOS
@@ -42,8 +44,7 @@ This page provides the information needed to troubleshoot Tizen Studio. Particip
    Intel HAXM requires an Intel processor with Execute Disable (XD) Bit functionality and cannot be used on systems not supporting this hardware feature. To determine the capabilities of your Intel processor, see [official site] (http://ark.intel.com/).
   
    - **For Intel XD not enabled**
-      > **Note**
-      >
+      > [!NOTE]
       > Apple based computers have Intel XD permanently enabled, if the feature is supported by the processor.
   
    If you receive an error message that Intel XD is not enabled, it implies that your computer does not meet the minimum system requirements to use Intel HAXM.In addition, to determine the capabilities of your Intel processor, see [official site](http://ark.intel.com/).
@@ -62,8 +63,7 @@ This page provides the information needed to troubleshoot Tizen Studio. Particip
 Intel HAXM requires an Intel processor with Intel VT-x functionality and cannot be used on systems lacking this hardware feature. To determine the capabilities of your Intel processor, see [official site](http://ark.intel.com/).
 
   - **Intel VT-x is not enabled**
-    > **Note**
-    >
+    > [!NOTE]
     >  Apple based computers have Intel VT-x permanently enabled, if the feature is supported by the processor.
   
 If you receive an error message indicating that Intel VT is not enabled, your computer does not meet the minimum system requirements to use Intel HAXM. To determine the capabilities of your Intel processor, see the [official site](http://ark.intel.com/).
@@ -81,7 +81,7 @@ Error	  NETSDK1013	The TargetFramework value 'tizen40' was not recognized. It ma
 ```
 **Resolution:**
 
-This error occurs due to the recent changes in visual studio project system. You can resolve the issue by following
+This error occurs due to the recent changes in the Visual Studio project system. You can resolve the issue by following
 either of the options: 
 
 1. Use Tizen.NET.Sdk 1.0.3
@@ -119,49 +119,51 @@ either of the options:
 **Resolution:** 
 
 1. Switch from .NET Core SDK preview version (v3.0.0-preview5) to .NET Core SDK preview version 2.2.102 
-2. Build using Visual Studio (right click on the **Project > Build**) and the FSharp.Core.dll library gets included in the build directory, and using the functions from FSharp.Core will also resolve the issue.
+2. Build using Visual Studio (right click on the **Project > Build**) and the FSharp.Core.dll library gets included in the build directory and using the functions from FSharp.Core will also resolve the issue.
 
 ## Issue: Screen Reader not working
 
 **Description:** 
-The screen reader is not working 
+The screen reader fails to work. 
 
 **Resolution:** 
-- Check whether the accessibility TTS(screen reader - voice assistant) and SystemSettings.AccessibilityTtsEnabled is enabled. For more information, see [Accessibility](https://developer.tizen.org/dev-guide/csapi/api/Tizen.System.SystemSettings.html#Tizen_System_SystemSettings_AccessibilityTtsEnabled).
+- Check whether the accessibility TTS(screen reader - voice assistant) and SystemSettings.AccessibilityTtsEnabled is enabled. 
+
+For more information, see [Accessibility](https://developer.tizen.org/dev-guide/csapi/api/Tizen.System.SystemSettings.html#Tizen_System_SystemSettings_AccessibilityTtsEnabled).
 
 
-## Issue: Emulator terminates unexpectdly on MacOS&reg;
+## Issue: Emulator terminates unexpectedly on macOS&reg;
 
-**Description:** If you use a Macbook that has both Intel HD and NVIDIA graphics, the emulator terminates nexpectedly while you execute the emulator with OpenGL ES version 1.1 or 2.0.
+**Description:** If you use a Macbook that has both Intel HD and NVIDIA graphics, the emulator terminates unexpectedly while you execute the emulator with OpenGL ES version 1.1 or 2.0.
 
 **Resolution:** 
 1. Verify the emulator configuration in **Emulator Manager**. 
 2. On **General tab** in the Emulator configuration window, set **OpenGL ES version to version 2.0** or to **version 3.0.**
 
-## Issue: UI display perspective issues on MacOS
+## Issue: UI display perspective issues on macOS
 **Description:** : After updating Tizen Studio, UI perspectives are not displayed properly.
 
 **Resolution:**
 
-- In MacOS, if the UI perspectives are not displayed properly, after you update Tizen Studio. It is recommended to restart the IDE, doing so clears the cache from the previous installation.
+- In macOS, if the UI perspectives are not displayed properly after you update Tizen Studio. It is recommended to restart the IDE, doing so clears the cache from the previous installation.
 
-- In case, you see any old perspective, it is recommended to create a new workspace and import the projects to the new workspace to resolve the issue.
+- In case you see any old perspective, it is recommended to create a new workspace and import the projects to the new workspace to resolve the issue.
 
 ## Issue: Not able to view Connection Explorer
 
 **Description:** Cannot view Connection Explorer.  
 
 **Resolution:**
+
 Since Tizen Studio 2.0 and higher,**Connection Explorer** is replaced with **Device Manager**. Additionally, You can fix this issues in following ways:
 
 - Reset the perspective:
   1. In Tizen Studio menu, select **Window > Perspective > Reset Perspective**.
   2. After updating Tizen Studio to higher version, run the following command:
   `eclipse.exe -clean -clearPersistedState` 
-  3. Launch the Tizen Studio normally.
+  3. Launch Tizen Studio normally.
 
->**Note:** 
->
+> [!NOTE]
 > You can create unit tests for Tizen Studio versions higher than 2.3.1. 
 
 ## Issue: Preview tab does not appear
@@ -172,7 +174,7 @@ The preview tab in the Web Page Editor does not appear.
 
 **Resolution:**
 - Use Web SDK HTML Editor, that enhanced features compared to the Web Page Editor. 
-- Instead of the preview tab in the Web Page Editor, use the preview feature by pressing the **Ctrl + 4** combination of keys in Web SDK HTML Editor.
+- Instead of the Preview tab in the Web Page Editor, use the preview feature by pressing the **Ctrl + 4** combination of keys in Web SDK HTML Editor.
 - In Rapid Development Support (RDS) mode, the web unit test result is not updated.
 
 ## Issue: Cannot launch Tizen Studio with GDB Client
@@ -197,15 +199,14 @@ Xenial (16.04) contains libreadline6-dev package, but Ubuntu 18.04 does not. You
 
 **Resolution:**
 
- The cause for such an issue is that the user has insufficient permissions. To resolve this problem, after installing KVM for Ubuntu-18.04, run the following command:
+ The cause of such an issue is that the user has insufficient permissions. To resolve this problem, after installing KVM for Ubuntu-18.04, run the following command:
 
 ```
 $ sudo adduser $USER kvm
 ```
 After the command is executed,  "kvm" group(/dev/kvm) will be added into the group file(/etc/group).
 
-> **Note**
->
+> [!NOTE]
 > To apply this change, you must restart or logout/login.
 
 

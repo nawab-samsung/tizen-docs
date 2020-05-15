@@ -1,7 +1,6 @@
 ## Frequently Asked Questions 
 
-This page answers to most commonly asked questions or errors that you may encounter while installing Tizen studio and developing apps in Tizen Studio.
-
+This page answers to most commonly asked questions or the errors that you may encounter while installing Tizen studio and developing apps in Tizen Studio.
 
 - **How to run Tizen Studio on Ubuntu 18.04?**
 

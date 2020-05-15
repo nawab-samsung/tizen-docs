@@ -1,6 +1,6 @@
 # Tizen Studio
 
-**Tizen Studio 3.2 is now launched!**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Download](media/ic_docs_download.png)  **Download**](https://developer.tizen.org/development/tizen-studio/download)
+**Tizen Studio 3.7 is now launched!**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Download](media/ic_docs_download.png)  **Download**](https://developer.tizen.org/development/tizen-studio/download)
 
 <style>
 #main:before, #main:after {
@@ -198,7 +198,7 @@ a.docs-btn-more {
 
 Tizen Studio is an official integrated development environment (IDE) for developing Tizen apps. This environment is built over Eclipse, it presents a unified environment where you can write, edit, debug, build, and publish your app. 
 
-Tizen Studio runs on Windows®, Ubuntu, and MacOSX. For more information on the latest release, see the [Download](https://developer.tizen.org/development/tizen-studio/download) page.
+Tizen Studio runs on Windows®, Ubuntu, and macOS. For more information on the latest release, see the [Download](https://developer.tizen.org/development/tizen-studio/download) page.
 
 Tizen Studio primarily consists of: 
 

@@ -16,11 +16,10 @@ You can manage extension SDK repositories using the following ways:
 - Modify extension repository
 - Activate or deactivate extension repository
 
-> **Note**
->
+> [!NOTE]
 > The installed packages are removed automatically. Before changing the package repository, you must reinstall the packages from the changed repository.
 
-If you want to configure Package Manager in the command line interface, see [Updating with the CLI Package Manager](update-sdk.md#updating-with-the-cli-package-manager).
+If you want to configure Package Manager in the command-line interface, see [Updating with the CLI Package Manager](update-sdk.md#updating-with-the-cli-package-manager).
 
 
 ## Configure Main SDK Package Repository
@@ -41,8 +40,7 @@ To set the Package Repository, follow these steps:
 4. Different snapshots are listed in the snapshot box based on your selection in the **Distribution** drop-down list.  You can toggle **Auto Update** to **ON** and **OFF**. 
      - If you toggle **Auto Update** to **OFF**, you can select the specific snapshot from the list. 
      - If you toggle **Auto Update** to **ON**, Package Manager updates the snapshot with the latest package snapshot.
-        > **Note**  
-        >
+        > [!NOTE]  
         > If you toggle the **Auto Update** option to **OFF**, the update causes entire packages to be removed to ensure system integrity.
 5. To confirm your setting, click **OK**.
     
@@ -56,9 +54,8 @@ To install or update packages using the SDK image, follow these steps:
 2. In the file browser that appears, select the SDK image file, and click **OK**. When you select the image file, the image's origin repository information is displayed in the snapshot table.
 3. To confirm your setting, click **OK**.
 
-> **Note**  
+> [!NOTE]  
 >-  If you install or update packages using an image file, the SDK image's origin repository URL or distribution ID can be different from the current packages URL or distribution ID. 
->
 > - The installation or update can cause entire packages to be removed to ensure system integrity.
 
 ## Configure Extension SDK Repository
@@ -135,7 +132,7 @@ To activate or deactivate the extra repository, follow these steps:
 ![Activating or deactivating an extra repository](./media/advanced_conf_activate_extra.png)
 3. Click **OK**.
 
-> **Note**  
+> [!NOTE]  
 > If the extension repository is deactivated, the packages from that repository are no longer shown in Package Manager. However, if you activate the extension repository, the packages will be displayed in Package Manager.
 
 ## Related Information

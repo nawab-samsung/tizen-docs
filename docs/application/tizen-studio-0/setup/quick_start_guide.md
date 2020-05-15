@@ -1,10 +1,9 @@
 # How to Develop Tizen Web Applications?
 
 ### Introduction
-Web applications involve the standards for building and rendering web pages such as HTML, CSS, and JavaScript. The following figure illustrates the basic structure of a Tizen Web application:
+Web application involves various standards for building and rendering web pages such as HTML, CSS, and JavaScript. The following figure illustrates the basic structure of a Web application in Tizen:
 
 ![Web applications](./media/web_app.png)
-
 
 
 ## How to create Tizen Web project?
@@ -15,14 +14,12 @@ Web applications involve the standards for building and rendering web pages such
 
 ![Step 3](./media/step3.png)
    
-
    
 ## How to implement Tizen Web applications?
 
 Following are the four implementation stages for a digital watch application:
 
 ![implementation plan](./media/imp_pla.png)
-
 
 ## How to add user interface layout to a digital watch?
 

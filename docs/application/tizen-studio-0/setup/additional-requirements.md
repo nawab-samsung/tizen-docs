@@ -65,9 +65,8 @@ To use Tizen Studio emulator, ensure that your development hardware meets the fo
 
 You can use the Web Inspector tool in the Google Chrome browser for debugging your applications. For more information, see [Web Inspector](../web-tools/web-inspector.md). The Web Inspector server uses the Web core of the platform.
 
->**Note**
->
->You must use Google Chrome&trade; browser version 52 or lower, such that all the functions of the Web Inspector work properly. For more information, see [Google Chrome&trade;](http://www.slimjet.com/chrome/google-chrome-old-version.php).
+> [!NOTE]
+> You must use Google Chrome&trade; browser version 52 or lower, such that all the functions of the Web Inspector work properly. For more information, see [Google Chrome&trade;](http://www.slimjet.com/chrome/google-chrome-old-version.php).
 
 ## T-Trace 
 

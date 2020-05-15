@@ -7,7 +7,7 @@ TAU helps you to:
 - Support the Mobile and Wearable profiles 
 - Support the circular UI for Wearable devices
 
-The concept of TAU is similar to jQuery Mobile, which is a commonly used Web UI system for making responsive Web sites and applications on the mobile devices. Compared to jQuery Mobile, TAU is much faster because it is made with pure JavaScript.
+The concept of TAU is similar to jQuery Mobile, which is a commonly used for Web UI for making responsive Web sites and applications on the mobile devices. Compared to jQuery Mobile, TAU is much faster because it is created with pure JavaScript.
 TAU supports the layout styles and page navigation of Web applications. TAU makes it easy to develop your own Tizen Web application with the UI components provided by TAU.
 
 ![Step 1](./media/tau1.PNG)

@@ -1,4 +1,4 @@
-# OpenJDK 10 and OpenJFX Installation Guide
+# OpenJDK 10 and OpenJFX Installation Guide For CLI Installation 
 
 Open Java Development Kit (OpenJDK) is an open source implementation of the Java Standard Edition (Java SE) platform with contribution from Oracle and the open Java community. For more information, see [OpenJDK](http://openjdk.java.net/).
 
@@ -12,16 +12,15 @@ This document explains how to install the OpenJDK version 10 along with OpenJFX 
 - [Linux](#install-openjdk-for-ubuntu)
 - [MacOS](#install-openjdk-for-macos)
 
-## Install OpenJDK
+## Download OpenJDK
 
-To install OpenJDK, you must download it as follow:
 1. Download the OpenJDK version 10 from [https://jdk.java.net/10/](https://jdk.java.net/10/).
 
 2. Extract the .tar file. The `jdk-10.0.2` folder appears.
 
 ### Install OpenJDK for Windows
 
-This section explains how to install the OpenJDK version 10 for Windows:
+This section explains how to install the OpenJDK version 10 on Windows:
 
 1. Go to **Start** > **Control Panel** > **System and Security** > **System**.
 
@@ -30,8 +29,7 @@ This section explains how to install the OpenJDK version 10 for Windows:
 3. Click **Environment Variables...**. The **Environment Variables** window appears.
 
 4. Click **New...** in the **User variables for \<user name\>** section.
-    > **Note**
-    >
+    > [!NOTE]
     > If your `JAVA_HOME` variable is already created, select it and click **Edit...**.
 
 5. Enter `JAVA_HOME` in the variable name field and the JDK directory path, for example, `C:\Users\user\Desktop\jdk-10.0.2`, in the Variable value field.
@@ -51,7 +49,7 @@ This section explains how to install the OpenJDK version 10 for Windows:
 
 ### Install OpenJDK for Ubuntu
 
-This section explains how to install the OpenJDK version 10 for Ubuntu:
+This section explains how to install the OpenJDK version 10 on Ubuntu:
 
 1. Launch the **Terminal** application.
 
@@ -70,16 +68,14 @@ This section explains how to install the OpenJDK version 10 for Ubuntu:
     ```
     sudo update-alternatives --config java
     ```
-    > **Note**
-    >
+    > [!NOTE]
     > If there are multiple JDK installed, select the required java version by entering the selection number.
 
 5. Run the following command:
     ```
     sudo update-alternatives --config javac
     ```
-    > **Note**
-    >
+    > [!NOTE]
     > `javac` is for compilation. For more information on differences between java and javac, see https://docs.oracle.com.
 
 4. Select the required javac version as mentioned above.
@@ -91,7 +87,7 @@ This section explains how to install the OpenJDK version 10 for Ubuntu:
 
 ### Install OpenJDK for MacOS
 
-This section explains how to install the OpenJDK version 10 for macOS:
+This section explains how to install the OpenJDK version 10 on macOS:
 
 1. Copy the downloaded jdk folder to the `Library/Java/JavaVirtualMachines` location. This is the default location where all the JDKs are available. Use the following command to copy the JDK directory.
     ```
@@ -105,8 +101,7 @@ This section explains how to install the OpenJDK version 10 for macOS:
     java -version
     ```
 
-    > **Note**
-    >
+    > [!NOTE]
     > If the OpenJDK version 10 is not installed, add the `export JAVA_HOME = /Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home` command in the `.profile` or `.bash_profile` file.
 
 
@@ -115,15 +110,15 @@ This section explains how to install the OpenJDK version 10 for macOS:
 After installing OpenJDK, install the OpenJFX:
 
 1. Download the OpenJFX version 11 from [https://gluonhq.com/products/javafx](https://gluonhq.com/products/javafx/).
-    > **Note**
-    >
+   
+    > [!NOTE]
     > Download the appropriate JavaFX product for your operating system.
 
 2. Extract the downloaded zip file.
 
 3. Copy all files in `lib` folder to `lib` folder of `JAVA_HOME`.
-   > **Note**
-   >
+   
+   > [!NOTE]
    > On Ubuntu, run the following command:
    > ```
    > cd javafx-sdk-11.0.1
@@ -131,7 +126,7 @@ After installing OpenJDK, install the OpenJFX:
    > ```
 
 4. Copy all files in `bin` folder to `bin` folder of `JAVA_HOME`.
-   > **Note**
-   >
+   
+   > [!NOTE]
    > This step is only required for Windows.
 

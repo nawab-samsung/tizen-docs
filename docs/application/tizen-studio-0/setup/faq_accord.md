@@ -73,7 +73,7 @@ For more information, see Manage certificates through [remote login, headless Li
 
    To download an earlier version of the JDK, see [Oracle Java Archive](https://www.oracle.com/technetwork/java/archive-139210.html).
    
-   >[!Note]
+   >[!NOTE]
    >
    >With the release of Tizen Studio 3.7, JDK is bundled with the setup binary and you may not see Tizen studio lauch failures.
    > In case you are using an older version of Tizen Studio, you can try the mentioned steps.
