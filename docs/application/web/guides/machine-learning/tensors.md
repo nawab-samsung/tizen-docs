@@ -125,7 +125,6 @@ The `TensorsData` object keeps data value of the tensors.
     ```javascript
     tensorsData.dispose();
     ```
-
 ## Related information
 
 - Dependencies
